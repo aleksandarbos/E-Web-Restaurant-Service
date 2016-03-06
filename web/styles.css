@@ -1,0 +1,224 @@
+/*-------------------------------------------------
+GLOBALS CLASSES
+-------------------------------------------------*/
+*{margin:0; padding:0; font-family: 'Verdana', sans-serif;}
+body{background:url(pattern-1.jpg);}
+
+p{color:#999999; font-size:14px; font-weight:normal; line-height:20px;}
+a{text-decoration:none; color:#990000;}
+a:hover{text-decoration:none; color:#777777; cursor:pointer}
+ul li { list-style:none; outline:none;}
+img { border:none; }
+img { border:none; }
+h1{font-size:26px; color:#282623; text-transform:uppercase; font-weight:normal;}
+/*-------------------------------------------------
+CSS TWEAKS
+-------------------------------------------------*/
+
+.fltLeft { float:left;}
+.flrRight { float:right;}
+.marLeft30 { margin-left:30px !important;}
+.marLeft20 { margin-left:20px;}
+.marRight20{ margin-right:20px;}
+.marRight25{ margin-right:25px;}
+.marRight30 { margin-right:30px;}
+.marginTop { margin-top:30px;}
+.marginTop10{ margin-top:10px;}
+.marginBottom { margin-bottom:60px;}
+.padTop { padding-top:20px;}
+.padBottom { padding-bottom:30px;}
+.padBottom20 { padding-bottom:20px;}
+.wid960{ width:960px !important; }
+/*-------------------------------------------------
+GENERAL CLASSES
+-------------------------------------------------*/
+
+.panel {overflow:hidden;}
+.content { overflow:hidden; font-size:14px;}
+.button-link a{text-transform:uppercase;}
+.top-border{border-top:1px solid #dadacb; margin:20px 20px 14px 20px;}
+.bottom-border{border-top:1px solid #dadacb; margin:14px;}
+
+/*-------------------------------------------------
+HEADER CLASSES
+-------------------------------------------------*/
+.header{width:960px; margin:0 auto; overflow:hidden;}
+.header-name{float:left; background:#EEEEEE; overflow:hidden; width:280px; padding-left:20px; padding-top:100px; margin-bottom:2em;}
+.header-name h2{font-size:18px; color:#990000; text-transform:uppercase; font-weight:normal;}
+.header-name h1{color:#50453b; font-size:42px; padding-bottom:22px;}
+
+.header-menu{width:400px; float:right; overflow:hidden; margin-top:90px;}
+.header-menu ul li{float:left; padding-bottom:20px; width:120px;}
+.header-menu ul li a{display:block; width:120px; height:40px; line-height:40px; background:#EEEEEE; font-size:14px; color:#990000; text-align:center; text-transform:uppercase;}
+.header-menu ul li a:hover{background:#990000; color:#EEEEEE;}
+
+.header-name-advanced{float:left; background:#900; overflow:hidden; width:280px; padding-left:20px; padding-top:100px; margin-bottom:2em;}
+.header-name-advanced h2{font-size:18px; color:#EEE; text-transform:uppercase; font-weight:normal;}
+.header-name-advanced h1{color:#FFF; font-size:42px; padding-bottom:22px;}
+
+.header-menu-advanced{width:400px; float:right; overflow:hidden; margin-top:90px;}
+.header-menu-advanced ul li{float:left; padding-bottom:20px; width:120px;}
+.header-menu-advanced ul li a{display:block; width:120px; height:40px; line-height:40px; background:#900; font-size:14px; color:#EEE; text-align:center; text-transform:uppercase;}
+.header-menu-advanced ul li a:hover{background:#EEE; color:#900;}
+
+/*-------------------------------------------------
+FLOAT PANEL HOLDERS
+-------------------------------------------------*/
+.panel-main-holder{width:100%; background-color: #FFFFFF; overflow:hidden; margin-top:20px;}
+.panel-main{width:945px; margin:0 auto; float:middle; overflow:hidden; margin-top:60px; padding-bottom:60px;}
+
+.panel-main .panel{width:250px; background:#EEEEEE; margin:1em; float:left; padding:1em;}
+.panel-main .title {padding-bottom:10px; }
+.panel-main .title h1{color:#50453b; font-weight:normal; padding-top:20px;}
+.panel-main .border{border-bottom:1px solid #dadacb; }
+.panel-main . {padding-top:15px; }
+.panel-main .img img{  width: 100% }
+.panel-link:hover {box-shadow:0 0 20px #990000;}
+
+.page-second-holder{width:100%; background:url(pattern-3.jpg); overflow:hidden;}
+.page-second{width:900px; overflow:hidden; margin:0 auto; margin-top:30px; padding-right:30px;
+			padding-left:30px; margin-bottom:30px; padding-bottom:30px;	padding-top:30px;
+			overflow:hidden; background-color:#EEEEEE;}
+.mid-panel .border{border-bottom:1px solid #dadacb; margin-top:15px;}
+
+/*-------------------------------------------------
+TOP PANEL CLASSES
+-------------------------------------------------*/
+
+
+.top-content{width:960px;  background:#f3f3ee; margin:0 auto; margin-top:50px; }
+.top-content h1{padding-top:26px; padding-left:20px;}
+.top-content p{ margin-left:20px; margin-right:20px;}
+.top-content .button-link{margin-left:20px; margin-top:20px; background:url(../icon-more.png) no-repeat; width:16px; height:16px; padding-bottom:30px;  padding-left:20px;}
+
+/*-------------------------------------------------
+LAYOUT CLASSES
+-------------------------------------------------*/
+
+.sidebar{width:300px; float:left; overflow:hidden;}
+.panel .title h2{color:#cf9359; font-size:22px; padding-top:20px; font-weight:normal;}
+.content img{float:left;}
+.content p{padding-bottom:10px;}
+
+/*-------------------------------------------------
+SIDEBAR CLASSS
+-------------------------------------------------*/
+.search-panel{width:100%; background:#f3f3ee; overflow:hidden;}
+.search-panel .content{width:260px; margin:0 auto; margin-top:30px; padding-bottom:30px; }
+.search-panel .content h2{font-size:14px; color:#cf9359; padding-top:20px; font-weight:normal; padding-bottom:10px;}
+.search-panel .title h1{color:#50453b; font-weight:normal;}
+.search-panel .border{border-bottom:1px solid #dadacb; margin-top:15px;}
+.search-panel .searchbox{width:100%;}
+.search-panel .input{width:200px; height:40px; float:left;  background:#e5e2d3; border:0px; font-size:14px; color:#978e86; padding-left:10px;}
+.search-panel .button a{width:40px; height:40px; float:right; background: url(../icon-search.png) no-repeat center #cf9359;}
+
+.midpanel{width:100%; background:#f3f3ee; overflow:hidden; margin-top:30px;}
+.midpanel .content{width:260px; margin:0 auto; margin-top:30px; }
+.midpanel .title h1{color:#50453b; font-weight:normal;}
+.midpanel .border{border-bottom:1px solid #dadacb; margin-top:15px; margin-bottom:10px;}
+.midpanel .content ul li{display:block; border-bottom:1px solid #dadacb; height:39px; line-height:39px;}
+.midpanel .content ul li.borderNone{border-bottom:none;}
+.midpanel .content ul li a{background:url(../icon-arrow.png) no-repeat left; padding-left:25px; font-weight:normal; color:#978e86;}
+.midpanel .content ul li a:hover{color:#cf9359;}
+
+.midpanel .container{width:100%; overflow:hidden; border-bottom:1px solid #dadacb; margin-bottom:20px; margin-top:20px;}
+.midpanel .container.borderNone{border-bottom:none;}
+.midpanel .left{width:160px; float:left; margin-right:20px;}
+.midpanel .left h2{font-size:14px; font-weight:normal; color:#cf9359; padding-bottom:14px;}
+.midpanel .left p{padding-bottom:11px;}
+.midpanel .img{float:left; width:80px;}
+
+/*-------------------------------------------------
+FORM ELEMENTS
+-------------------------------------------------*/
+.form { padding:30px;float:left; width:550px; overflow:hidden; display:block; margin-right:15em;}
+.form label {display: block; padding:10px 0 10px 0;}
+.form label span {display: block; color:#939191;font-size:14px; float:left; width:8.5em; text-align:left; padding:0.7em 1em 0 0;}
+.input_text {padding:10px 10px;width:25em;background:#ffffff;border:none; color:#939191;}
+.input_text-medium {padding:10px 10px; width:12em; background:#ffffff;border:none; color:#939191;}
+.input_text-small {float:left; width:2em; height:2.3em; background:#ffffff; padding-left:0.5em; padding-right:0.5em; color:#939191;}
+.input_block{padding:10px 10px;width:24em; background:#ffffff; border:none;overflow:hidden;height:150px; color:#939191; font-size:14px;}
+.input_select{padding:10px 10px;width:10em;background:#ffffff;border:none; color:#939191;}
+.input_select_long{padding:10px 10px;width:25em;background:#ffffff;border:none; color:#939191;}
+.button{background:#990000; color:#eeeeee; text-transform:uppercase; border:0px solid;margin-left:10em;margin-top:20px; width:11em; height:2.8em}
+.button-image {float:left; height: 2.3em; width:2.3em; margin-left:0.2em;}
+.button-small {float:left; height: 2.3em; width:7em; padding-left:0.2em; margin-left:0em; padding:0em; margin:0.4em;}
+.input_checkbox { height: 2em; width: 2em;}
+.input_checkbox_medium { height: 1.5em; width: 1.5em;}
+
+.input_text:focus{outline:2px solid; box-shadow:0 0 5px #990000; outline-color:#990000}
+.button:hover{background:#ffffff; color:#990000; cursor:pointer;}
+.input_text:focus{outline:2px solid; box-shadow:0 0 5px #990000; outline-color:#990000}
+.input_block:focus{outline:2px solid; outline-color:#990000; box-shadow:0 0 5px #990000;}
+
+
+.hidden-link:hover{color:#990000; cursor:text}
+.table { margin:30px;float:left; width:95%; overflow:hidden; }
+.table th {color:#777777; font-size:16px; padding:1em 0 10px 0;}
+.table td  {color:#939191; font-size:14px; text-align:left; padding:1em; text-align: center;}
+.tborder { border: 1px solid #cccccc;}
+
+.some_name {text-transform:uppercase;}
+/*-------------------------------------------------
+PAGES
+-------------------------------------------------*/
+.login-panel {background-color:#eeeeee; padding:2em; margin-bottom:2em; width:32em; padding-bottom:0.5em !important}
+.login-panel a{font-size:14px; padding-left: 5em}
+.login-panel table{width: 90%}
+.login-panel td{font-size: 14px; padding:0.5em; text-align: left; font-weight: normal; color:#939191; }
+.login-panel th{font-size: 16px; padding:0.5em; font-weight: bold; color:#777777; text-align:left;}
+
+.one_line_form {width:100%; border-bottom: 1px dashed #cccccc}
+.one_line_form span {color:#939191; font-size:14px; padding:0.7em 1em 0 1em;}
+.one_line_form .button{margin-left:2em;}
+
+.meals-panel {width: 60em !important;}
+.meals-panel td{color: #555}
+.meals-panel th{color: #555}
+.meals-panel .some_name{font-weight: bold;}
+
+.about-panel {background-color:#eeeeee; padding:2em; margin-bottom:2em; width:45em; padding-bottom:0.5em !important}
+.about-panel  span {display: block; color:#939191;font-size:14px; float:left; width:8.5em; text-align:left; padding:0.7em 1em 0 0;}
+.about-picture {float: left; display: block; width: 15em; margin:1em;}
+.about-picture img{width: 100%;}
+.about-info {float: left; display: block; width: 25em; margin:1em;}
+.about-info th{font-size: 14px; padding:0.5em; text-align: left; font-weight: normal; color:#939191; }
+.about-info td{font-size: 16px; padding:0.5em; font-weight: bold; color:#777777; }
+
+.search-nomatch{font-size: 16px; text-align:center; margin:3em; font-weight: bold;}
+
+.friend-panel{background-color:#eeeeee; padding:0.5em; margin-top:0.2em; margin-bottom:0.5em; width:45em; height:10em;}
+.friend-picture {float: left; display: block; width: 10em; height:10em; padding:1em;}
+.friend-picture img{width: 8em;}
+.friend-info {float: left; display: block; width: 32em; margin-top: 0.3em;}
+.friend-info th{font-size: 14px; padding:0.5em; text-align: left; font-weight: normal; color:#939191; }
+.friend-info td{font-size: 16px; padding:0.5em; font-weight: bold; color:#777777; }
+
+.restaurant-panel {display:block;}
+.restaurant-picture {float: left; display: block; width: 20em; margin:1em;}
+.restaurant-picture img{width: 100%;}
+.restaurant-details {float: left; display: block; width: 32em; margin:1em;}
+.restaurant-details th{font-size: 14px; width:14em; padding:0.5em; text-align: left; font-weight: normal; color:#939191; }
+.restaurant-details td{font-size: 16px; width:25em; padding:0.5em; font-weight: bold; color:#777777; }
+.restaurant-menu {padding-top: 23em;}
+#google_map {height:20em; width:100%; background-color: #cccccc;}
+#google_map_add {height:20em; width:100%; background-color: #cccccc;}
+#google_map_change {height:20em; width:100%; background-color: #cccccc;}
+.restaurant-tables table {margin-top: 2em; width: 45em; vertical-align:middle; margin-left:5em; margin-right: 5em;}
+.restaurant-tables td {width: 5em; height: 3em; text-align: center;}
+.restaurant-tables-define td{background-color: #333;}
+.restaurants-call th {font-size: 16px; text-align: left; padding-bottom:1em; width:10em;}
+.restaurants-call td {width: 2em; padding-left:1em}
+.restaurants-call {width:52em; margin: 0em;}
+
+.restaurants-meals th {font-size: 14px; text-align: left; padding-bottom:1em; width:12em;}
+.restaurants-meals td {width: 1.5em; padding-left:1em}
+.restaurants-meals {width:52em; margin: 0em;}
+.restaurant-layout {margin-top: 2em; width: 45em; vertical-align:middle;}
+.restaurant-layout table {margin-top: 2em; width: 45em; vertical-align:middle; margin-left:5em; margin-right: 5em;}
+.restaurant-layout td{ width: 5em; height: 3em; text-align: center;}
+/*-------------------------------------------------
+FOOTER CLASSES
+-------------------------------------------------*/
+.footer{width:640px; margin:0 auto; margin-top:2em; overflow:hidden;}
+.footer p{text-align:center; color:#990000; background:#EEEEEE; margin-bottom:2em;}

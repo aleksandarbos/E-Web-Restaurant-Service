@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+    <display-name>ISA-project</display-name>
+    
+    <module>
+        <web>
+            <web-uri>ISA-project.war</web-uri>
+            <context-root>/ISA-project</context-root>
+        </web>
+    </module>
+
+    <module>
+        <ejb>ISA-project.jar</ejb>
+    </module>
+</application>
